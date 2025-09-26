@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #0A0A0A;
+    color: white;
+
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p {
+    padding-left: 100px;
+    padding-bottom: 50px;
+    width: 50%;
+}
+
+/* Layout */
+
+.full-width {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 50px 20px 50px;
+    box-sizing: border-box;
+}
+
+.sub-container {
+    width: 30%;
+    border: 2px solid white;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
