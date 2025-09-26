@@ -36,6 +36,16 @@ p {
     text-align: center;
 }
 
+.white {
+    background-color: white;
+    color: black;
+}
+
+.page-break {
+    padding: 50px;
+    background-color: #1A1A1A
+}
+
 .nav-item {
     text-decoration: none;
     color: white;
@@ -46,6 +56,15 @@ p {
 
 .centre {
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signature {
+    font-family: "Bad Script", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 
 footer {
@@ -66,12 +85,14 @@ footer p {
     justify-content: center;
     align-items: center;
 }
+
 footer a {
     color: #CCCCCC;
     text-decoration: underline;
     margin: 0 10px;
     transition: color 0.2s;
 }
+
 footer a:hover {
     color: #FFFFFF;
 }
