@@ -31,8 +31,47 @@ p {
 
 .sub-container {
     width: 30%;
-    border: 2px solid white;
     padding: 20px;
     box-sizing: border-box;
     text-align: center;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    display: block;
+    width: 100%;
+}
+
+.centre {
+    text-align: center;
+}
+
+footer {
+    background-color: #1A1A1A;
+    color: #CCCCCC;
+    text-align: center;
+    padding: 30px 0 20px 0;
+    font-size: 1rem;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    left: 0;
+}
+
+footer p {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer a {
+    color: #CCCCCC;
+    text-decoration: underline;
+    margin: 0 10px;
+    transition: color 0.2s;
+}
+footer a:hover {
+    color: #FFFFFF;
 }
